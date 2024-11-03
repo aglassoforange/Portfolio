@@ -1,0 +1,49 @@
+
+> portfolio@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+(node:409) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:409) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view portfolio in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.17.0.2:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+assets by path static/media/ 1.96 MiB
+  assets by info 1.85 MiB [immutable]
+    assets by path static/media/*.png 1.77 MiB 7 assets
+    asset static/media/Soumyajit_Behera-BIT_MESRA.f31c00c0623443fc6fa3.pdf 48.5 KiB [emitted] [immutable] [from: src/Assets/Soumyajit_Behera-BIT_MESRA.pdf] (auxiliary name: main)
+    asset static/media/home-bg.dc52d5d40a40b13154b0.jpg 31.4 KiB [emitted] [immutable] [from: src/Assets/home-bg.jpg] (auxiliary name: main)
+    asset static/media/pre.d4812f51c8c80976eaab.svg 1.88 KiB [emitted] [immutable] [from: src/Assets/pre.svg] (auxiliary name: main)
+  asset static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg 108 KiB [emitted] (auxiliary name: main)
+  asset static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg 12.6 KiB [emitted] (auxiliary name: main)
+assets by path static/js/*.js 19.2 MiB
+  asset static/js/bundle.js 19.2 MiB [emitted] (name: main) 1 related asset
+  asset static/js/vendors-node_modules_tsparticles_esm_Plugins_PolygonMask_pathseg_js.chunk.js 59.4 KiB [emitted] (id hint: vendors) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.92 KiB [emitted] 1 related asset
+asset index.html 1.86 KiB [emitted]
+asset asset-manifest.json 1.81 KiB [emitted]
+orphan modules 246 KiB [orphan] 170 modules
+runtime modules 32.5 KiB 16 modules
+modules by path ./node_modules/ 16.9 MiB 629 modules
+modules by path ./src/ 264 KiB (javascript) 1.85 MiB (asset)
+  javascript modules 259 KiB 27 modules
+  asset modules 5.03 KiB (javascript) 1.85 MiB (asset) 11 modules
+modules by mime type image/svg+xml 4.4 KiB
+  data:image/svg+xml,%3csvg xmlns=%27.. 281 bytes [built] [code generated]
+  data:image/svg+xml,%3csvg xmlns=%27.. 279 bytes [built] [code generated]
+  data:image/svg+xml,%3csvg xmlns=%27.. 161 bytes [built] [code generated]
+  + 13 modules
++ 6 modules
+webpack 5.70.0 compiled successfully in 17211 ms

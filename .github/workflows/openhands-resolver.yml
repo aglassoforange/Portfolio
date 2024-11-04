@@ -222,8 +222,10 @@ jobs:
               });
             }
 
-      - name: Upload /tmp directory as artifact
+      - name: Upload /tmp/output directory as artifact
         uses: actions/upload-artifact@v3
         with:
-          name: tmp-directory
-          path: /tmp      
+          name: output-directory
+          path: /tmp/output
+          if-no-files-found: warn
+   

@@ -221,3 +221,9 @@ jobs:
                 body: `The workflow to fix this issue encountered an error. Please check the workflow logs for more information.`
               });
             }
+
+      - name: Upload /tmp directory as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: tmp-directory
+          path: /tmp      

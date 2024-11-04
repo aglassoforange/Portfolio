@@ -1,6 +1,7 @@
 body {
-  background-color: orange !important;
+  background-color: #90EE90 !important; /* Light green color */
 }
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -744,3 +745,4 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
